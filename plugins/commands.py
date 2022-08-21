@@ -531,5 +531,5 @@ async def save_template(client, message):
 @Client.on_message(filters.private & filters.text & ~filters.regex("^/"))
 async def msg_handler(c, m):
     await m.reply_text(
-        "<b>⭕️👉 𝖱ᴇǫᴜᴇ𝗌ᴛ Mᴏᴠɪᴇ Hᴇʀᴇ\n⭕️👉 @PenMovieRequest</b>"
+        "<b>⭕️👉 𝖱ᴇǫᴜᴇ𝗌ᴛ Mᴏᴠɪᴇ Hᴇʀᴇ\n ┃\n⭕️👉 @PenMovieRequest</b>"
     )
