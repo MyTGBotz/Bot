@@ -13,10 +13,10 @@ class script(object):
 ✯ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ: v1.0.1 [ ʙᴇᴛᴀ ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 ★ ᴛʜɪꜱ ɪꜱ ᴀ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ. 
-★ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ - <a href=https://github.com/MyTGBotz/Movie>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>  
+★ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ - <a href=https://t.me/MaxAdminsBot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>  
 
 <b>DEVS:</b>
-★ <a href=https://t.me/PenMovieHD>𝐏єη 𝐌๏νιє 𝐇ↁ</a>"""
+★ <a href=https://t.me/PenMovieHD>𝐏єη 𝐌๏νιє 𝐇ↁ [ᴀᴅᴍɪɴ ᴘᴀɴɴᴇʟ ❤️]</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Mᴏᴠɪᴇ Pʀᴏᴠɪᴅᴇʀ 𝕏 will respond whenever a keyword is found the message
