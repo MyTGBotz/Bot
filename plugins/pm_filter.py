@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🏠Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ🏠 ', url='https://t.me/PenMovieHD')
+        InlineKeyboardButton('🏠Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ🏠 ', url='https://t.me/TazHD')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -419,7 +419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/PenMovieHD')
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/TazHD')
         ], [
             InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
@@ -450,7 +450,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/PenMovieHD'),
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/TazHD'),
             InlineKeyboardButton('♥️ Sᴛᴀᴛᴜꜱ', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
@@ -686,7 +686,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🏠Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ🏠 ', url='https://t.me/PenMovieHD')
+        InlineKeyboardButton('🏠Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ🏠 ', url='https://t.me/TazHD')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -723,7 +723,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>📟 Title : </b>{search} \n<b>🧑🏻‍💻 Requested By :</b> {message.from_user.mention} \n<b>🚀 Group :</b> {message.chat.title} \n<b>🏠 Powered By : @PenMovieHD </b>"
+        cap = f"<b>📟 Title : </b>{search} \n<b>🧑🏻‍💻 Requested By :</b> {message.from_user.mention} \n<b>🚀 Group :</b> {message.chat.title} \n<b>🏠 Powered By : @TazHD </b>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
