@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/PenMovieHD')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/TazHD')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/PenMovieHD')
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/TazHD')
             ],[
             InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/PenMovieHD')
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇꜱ', url='https://t.me/TazHD')
             ],[
             InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
@@ -248,7 +248,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Mᴏᴠɪᴇ 𝖱ᴇǫᴜᴇ𝗌ᴛ Gʀᴏᴜᴘ ', url="https://t.me/PenMovieRequest")
+                    InlineKeyboardButton('Mᴏᴠɪᴇ 𝖱ᴇǫᴜᴇ𝗌ᴛ Gʀᴏᴜᴘ ', url="https://t.me/TazMovie")
                 ]
             ]
         )
@@ -531,5 +531,5 @@ async def save_template(client, message):
 @Client.on_message(filters.private & filters.text & ~filters.regex("^/"))
 async def msg_handler(c, m):
     await m.reply_text(
-        "<b>⭕️👉 𝖱ᴇǫᴜᴇ𝗌ᴛ Mᴏᴠɪᴇ Hᴇʀᴇ\n ┃\n⭕️👉 @PenMovieRequest</b>"
+        "<b>⭕️👉 𝖱ᴇǫᴜᴇ𝗌ᴛ Mᴏᴠɪᴇ Hᴇʀᴇ\n ┃\n⭕️👉 @TazMovie</b>"
     )
