@@ -5,7 +5,7 @@ class script(object):
     HELP_TXT = """<b>ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ</b>."""
     ABOUT_TXT = """<b>✯ ᴍʏ ɴᴀᴍᴇ: {}
-✯ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/PenMovieHD>𝐏єη 𝐌๏νιє 𝐇ↁ</a>
+✯ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/TazHD>𝐓αȥ 𝐇ↁ</a>
 ✯ ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 𝟹
 ✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ: ᴍᴏɴɢᴏ ᴅʙ
@@ -15,7 +15,7 @@ class script(object):
 ★ ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ. 
 ★ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ - <a href=https://t.me/MaxAdminsBot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>  
 
-★ <b>ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ: <a href=https://t.me/PenMovieHD>𝐏єη 𝐌๏νιє 𝐇ↁ ❤️</a></b>"""
+★ <b>ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ: <a href=https://t.me/TazHD>𝐓αȥ 𝐇ↁ ❤️</a></b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Mᴏᴠɪᴇ Pʀᴏᴠɪᴅᴇʀ 𝕏 will respond whenever a keyword is found the message
